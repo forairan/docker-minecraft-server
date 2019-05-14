@@ -1,7 +1,7 @@
 FROM linuxserver/baseimage
 MAINTAINER Pete McWilliams <petemcw@gmail.com>
 
-ENV APTLIST="libmozjs-24-bin openjdk-7-jre-headless wget"
+ENV APTLIST="libmozjs-24-bin openjdk-8-jre-headless wget"
 ENV MINECRAFT_HOME="/src" \
     JAVA_OPTS="-server -Xmx1024M -Xms1024M -XX:MaxPermSize=256m -XX:+UseParNewGC -XX:+UseConcMarkSweepGC" \
     VERSION="latest" \
